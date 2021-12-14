@@ -15,7 +15,7 @@ go get github.com/IQ-tech/go-retry
 ## Retrying a function call
 
 ```go
-// We will attempt the functioncall 3 times
+// We will attempt the function call 3 times
 // with an initial waiting time of 3 seconds.
 retryOptions := retry.Options{
 	Attempts:                  3,
