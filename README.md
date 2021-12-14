@@ -26,7 +26,7 @@ value, err = retry.Func(retryOptions, func() (interface{}, error) {
 	return someservice.GetSomeValue()
 })
 
-// [err] will be non nill if the function didn't succeed after
+// [err] will be non nil if the function didn't succeed after
 // the maximum number of attempts has been reached.
 if err != nil {
   panic(err)
